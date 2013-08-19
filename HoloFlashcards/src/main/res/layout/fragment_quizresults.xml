@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/quizResultTitle"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="@string/results"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/quizResultText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/padding_normal"
+        android:text="You got 0/0 correct!"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <RelativeLayout
+        android:id="@+id/wrongCardsDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/quizResultsTextHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="@dimen/padding_normal"
+            android:text="@string/display_wrong_cards" />
+
+        <View
+            android:id="@+id/quizResultsViewHeader"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/quizResultsTextHeader"
+            android:background="?attr/dividerHorizontal" />
+
+        <fragment
+            android:id="@+id/cardsWrongListFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/quizResultsViewHeader"
+            android:layout_marginLeft="@dimen/padding_normal"
+            android:layout_marginRight="@dimen/padding_normal"
+            class="com.kevinchou.android.holoflashcards.ListViewFragment" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/quizAllCorrectText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/good_job"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:visibility="gone" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?attr/dividerHorizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/quizExitButton"
+            style="?attr/actionButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/view_as_card" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/padding_normal"
+            android:layout_marginTop="@dimen/padding_normal"
+            android:background="?attr/dividerVertical" />
+
+        <Button
+            android:id="@+id/quizRetryButton"
+            style="?attr/actionButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/try_again" />
+    </LinearLayout>
+
+</LinearLayout>

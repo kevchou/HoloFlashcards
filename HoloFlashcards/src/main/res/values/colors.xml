@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources  xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <color name="background">#E5E5E5</color>
+    <color name="background_transparent">#77E5E5E5</color>
+    <color name="card_shadow">#ccc</color>
+    <color name="white">#FFFFFF</color>
+    
+    <color name="dark_actionbar">#222222</color>
+    <color name="blue">#09c</color>
+    <color name="purple">#93c</color>
+    <color name="green">#690</color>
+    <color name="orange">#f80</color>
+    <color name="red">#c00</color>
+
+    <color name="green_light">#9c0</color>
+    <color name="red_light">#f44</color>
+    
+    
+    
+    <array name="accent_colors">
+        <item>@color/dark_actionbar</item>
+        <item>@color/blue</item>
+        <item>@color/purple</item>
+        <item>@color/green</item>
+        <item>@color/orange</item>
+        <item>@color/red</item>
+    </array>
+
+</resources>

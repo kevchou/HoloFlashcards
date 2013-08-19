@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_normal" >
+
+    <TextView
+        android:id="@+id/cardFrontTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Front Text:" />
+
+    <EditText
+        android:id="@+id/cardFrontEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cardFrontTextView"
+        android:hint="Front Text"
+        android:singleLine="true" 
+        android:inputType="textCapSentences|textAutoCorrect"/>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/cardFrontEditText"
+        android:layout_margin="@dimen/padding_small"
+        android:background="?attr/dividerHorizontal" />
+
+    <TextView
+        android:id="@+id/cardBackTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/divider"
+        android:text="Back Text:" />
+
+    <EditText
+        android:id="@+id/cardBackEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cardBackTextView"
+        android:hint="Back Text"
+        android:singleLine="true" 
+        android:inputType="textCapSentences|textAutoCorrect"/>
+
+</RelativeLayout>

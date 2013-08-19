@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:holoflashcards="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/menu_card_add"
+        android:icon="@drawable/ic_plus"
+        android:orderInCategory="1"
+        android:title="@string/add_new_card"
+        holoflashcards:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_card_view_as_card"
+        android:icon="@drawable/ic_view_card"
+        android:orderInCategory="2"
+        android:title="@string/view_as_card"
+        holoflashcards:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/menu_card_startquiz"
+        android:icon="@drawable/ic_quiz"
+        android:orderInCategory="99"
+        android:title="@string/start_quiz"
+        holoflashcards:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/menu_card_list_exportdeck"
+        android:icon="@drawable/ic_export"
+        android:orderInCategory="100"
+        android:title="@string/export_deck"
+        holoflashcards:showAsAction="never"/>
+
+</menu>

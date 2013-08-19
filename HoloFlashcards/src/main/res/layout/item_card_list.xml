@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/listview_topbottom_padding"
+    android:paddingLeft="@dimen/listview_side_padding"
+    android:paddingRight="@dimen/listview_side_padding"
+    android:paddingTop="@dimen/listview_topbottom_padding" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/card_background"
+        android:padding="@dimen/padding_small" >
+
+        <TextView
+            android:id="@+id/itemCardFrontTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_small"
+            android:layout_marginRight="@dimen/padding_normal"
+            android:textColor="#333"
+            android:textSize="20sp" />
+        
+        <View
+            android:id="@+id/listViewDivider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="@dimen/padding_small"
+            android:layout_below="@+id/itemCardFrontTextView" 
+            android:background="?attr/dividerHorizontal"/>
+
+        <TextView
+            android:id="@+id/itemCardBackTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_small"
+            android:layout_marginRight="@dimen/padding_normal"
+            android:layout_below="@+id/listViewDivider"
+            android:textColor="#AAA"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/itemCardNumTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="1"
+            android:textColor="#CCC" />
+    </RelativeLayout>
+
+</FrameLayout>

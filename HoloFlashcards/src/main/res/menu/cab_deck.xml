@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:holoflashcards="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/cab_deck_edit"
+        android:orderInCategory="100"
+        holoflashcards:showAsAction="ifRoom"
+        android:title="@string/edit_deck"
+        android:icon="@drawable/ic_edit"/>
+    
+    <item
+        android:id="@+id/cab_deck_delete"
+        android:orderInCategory="100"
+        holoflashcards:showAsAction="ifRoom"
+        android:title="@string/delete_decks"
+        android:icon="@drawable/ic_delete"/>
+
+</menu>

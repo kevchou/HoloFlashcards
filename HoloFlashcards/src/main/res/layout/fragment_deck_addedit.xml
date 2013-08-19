@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:padding="@dimen/padding_normal">
+
+    <EditText
+        android:id="@+id/deckNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_normal"
+        android:inputType="textCapSentences|textAutoCorrect"
+        android:hint="@string/deckname_edittext_hint" />
+
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chooseColorTextView"
+        android:layout_below="@+id/deckNameEditText"
+        android:text="@string/choose_accent_color" />
+    
+    <RadioGroup
+        android:id="@+id/colorSelectRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/chooseColorTextView" 
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radio0"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="@dimen/padding_normal"
+            android:button="@drawable/accent_color_selector"
+            android:background="@color/dark_actionbar"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="@dimen/padding_normal"
+            android:button="@drawable/accent_color_selector"
+            android:background="@color/blue"
+            />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="30dp"
+            android:layout_height="30dp" 
+            android:layout_margin="@dimen/padding_normal"
+            android:button="@drawable/accent_color_selector"
+            android:background="@color/purple"/>
+        
+        <RadioButton
+            android:id="@+id/radio3"
+            android:layout_width="30dp"
+            android:layout_height="30dp" 
+            android:layout_margin="@dimen/padding_normal"
+            android:button="@drawable/accent_color_selector"
+            android:background="@color/green"/>
+        
+        <RadioButton
+            android:id="@+id/radio4"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="@dimen/padding_normal"
+            android:button="@drawable/accent_color_selector"
+            android:background="@color/orange"/>
+        
+        <RadioButton
+            android:id="@+id/radio5"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="@dimen/padding_normal"
+            android:button="@drawable/accent_color_selector"
+            android:background="@color/red"/>
+    </RadioGroup>
+
+</RelativeLayout>

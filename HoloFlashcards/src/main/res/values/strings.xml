@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Holo Flashcards</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="delete_deck_message">Are you sure you want to delete</string>
+    <string name="add_new_deck">Add New Deck</string>
+    <string name="edit_deck">Edit Deck</string>
+    <string name="delete_decks">Delete Deck(s)</string>
+    <string name="deckname_edittext_hint">Enter Deck Name</string>
+    <string name="add">Add</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="choose_accent_color">Choose an accent color for your deck:</string>
+    <string name="add_new_card">Add New Card</string>
+    <string name="edit_card">Edit Card</string>
+    <string name="empty_deckname_error">Deck name cannot be empty.</string>
+    <string name="deckname_already_exists">There already exists a deck named</string>
+    <string name="no_cards">There are no cards in this deck. Add one!</string>
+    <string name="view_as_list">View as list</string>
+    <string name="view_as_card">View Cards</string>
+    <string name="start_quiz">Start Quiz</string>
+    <string name="quiz_start_no_card">You need to add cards to the deck first!</string>
+    <string name="wrong">Wrong</string>
+    <string name="correct">Correct</string>
+    <string name="results">Results</string>
+    <string name="display_wrong_cards">Here are the cards you got wrong:</string>
+    <string name="good_job">Good Job!</string>
+    <string name="try_again">Try again</string>
+    <string name="import_deck">Import deck</string>
+    <string name="export_all">Export all decks</string>
+    <string name="export_deck">Export deck</string>
+
+    
+    <string name="shuffle_cards">Cards in the deck will be randomly shuffled.</string>
+    <string name="reverse_front_back">Reverse front and back text</string>
+    
+    <string name="first_time_run">First time</string>
+
+    
+    <string name="help">Help</string>
+    
+    <string-array name="first_time_run_array">
+        <item>Welcome! You can swipe left and right to view the cards in the deck.</item>
+        <item>Nothing here!</item>
+        <item>Tap anywhere on the card to flip it over! Add, edit, or delete cards using the button in the top right.</item>
+        <item>Tap again to flip back to the front.</item>
+        <item>You can view your cards individually, or view them in a list by tapping the list icon in the top right.</item>
+        <item>Easily switch between the two!</item>
+        <item>Test your knowledge of the deck by quizzing yourself!</item>
+        <item>See if you can get a perfect score.</item>
+    </string-array>
+
+    <string name="biology_example_title">Example - Biology</string>
+
+    <string-array name="biology_example_array">
+        <item>Photosynthesis</item>
+        <item>process by which plants use the sun\'s energy to convert water and carbon dioxide into sugars</item>
+        <item>Reactant</item>
+        <item>a chemical substance that is present at the start of a chemical reaction</item>
+        <item>Product</item>
+        <item>a chemical substance formed as a result of a chemical reaction</item>
+        <item>Chloroplast</item>
+        <item>an organelle found in plant and algae cells where photosynthesis occurs</item>
+        <item>Stomata</item>
+        <item>Pore-like openings in leaves that allow gases (CO2 and O2) and water to diffuse in and out of the leaves.</item>
+        <item>Guard Cells</item>
+        <item>cells that control the opening and closing of stomata</item>
+        <item>Chlorophyll</item>
+        <item>green pigment in plants that absorbs light energy used to carry out photosynthesis</item>
+        <item>ATP</item>
+        <item>main energy source that cells use for most of their work</item>
+        <item>ADP</item>
+        <item>adenosine diphosphate; molecule that ATP becomes when it gives up one of its three phosphate groups</item>
+    </string-array>
+
+    
+    <string name="help_popup_title">There are only 3 main sections of this app:</string>
+    <string name="help_decks_title">View Decks</string>
+    <string name="help_decks_body">This is the first screen you see when you enter the app. You can add a new deck of cards, or edit/delete existing decks by tap and holding a deck until new options appear.</string>
+    <string name="help_cards_title">View Cards</string>
+    <string name="help_cards_body">You can view all the cards in a deck individually or as a list. This is where you can add/edit/delete cards within a deck.</string>
+    <string name="help_quiz_title">Quiz yourself</string>
+  	<string name="help_quiz_body">Test your knowledge by quizzing yourself on the cards! You will get quiz results and view the cards you answered incorrectly after the quiz.</string>
+  	<string name="help_importexport_title">Importing/Exporting</string>
+  	<string name="help_importexport_body">You can export decks as a CSV (comma separated values) file, which you can open up in any text editor such as notepad. You can also import any comma separated value file, which you can make in any text editor. Just have values you want for the front and back of each card on a single row, separated by a comma.</string>
+  	<string name="help_importexport_example">\nFor example, a file consisting of the following would be acceptable:\n\n"Date Google was founded, Sept 4 1998\nNumber of bones in the human body, 206\nPlanet closest to the sun, Mercury"</string>
+</resources>

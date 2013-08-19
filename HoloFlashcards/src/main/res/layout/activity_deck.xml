@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grey_background_pattern"
+    tools:context=".DeckActivity" >
+
+    <ListView
+        android:id="@+id/deckList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="false"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:cacheColorHint="#00000000"
+        />
+
+</RelativeLayout>
